@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handtracking App</title>
+    <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"> </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" style="display:none">
+        <video autoplay="true" id="videoElement"></video>
+    </div>
+    <canvas id="output">
+
+    </canvas>
+
+    <div id="info">Loading Model...</div>
+    <div id="togSwitch">
+        <p id="toggle">Toggle Handtracking</p>
+        <label class="switch" id="toggleSwitch">
+            <input type="checkbox" id="check">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
