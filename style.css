@@ -22,6 +22,47 @@
     font-size: 30px;
 }
 
+.overlay{
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    width: 600px;
+    height: 500px;
+    border: solid 4px black;
+}
+
+#over1{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(87, 87, 246, 0.3);
+    width: 300px;
+    height: 250px;
+}
+#over2{
+    position: absolute;
+    top:0;
+    left:300px;
+    background-color: rgba(9, 221, 9, 0.3);
+    width: 300px;
+    height: 250px;
+}
+#over3{
+    position: absolute;
+    top:250px;
+    left:0;
+    background-color: rgba(255, 255, 16, 0.3);
+    width: 300px;
+    height: 250px;
+}
+#over4{
+    position: absolute;
+    top:250px;
+    left:300px;
+    background-color: rgba(255, 0, 0, 0.3);
+    width: 300px;
+    height: 250px;
+}
 .switch input {
     opacity: 0;
     width: 0;
